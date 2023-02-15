@@ -1,0 +1,279 @@
+:root{
+    --primarycolor: rgb(254,187,2);
+    --bui_color_foreground_alt: #6b6b6b;
+    --bui_color_highlighted_alt: rgba(0,0,0,0.06);
+    --bui_color_action_highlighted_alt: rgba(0,113,194,0.06);
+    --bui_color_brand_primary_background: #003580;
+}
+header{
+    background-color: rgb(0,53,128);
+}
+.flag{
+    width: 35%;
+}
+.nav-item1:hover{
+   background:#19498C;
+    
+}
+.nav-item:hover{
+    background: #19498C ;
+    border-radius: 25px;
+}
+.button:hover{
+    color: #0071c2 !important;
+    background: rgb(240,247,251) !important;
+}
+.fa-regular{
+    font-size: 20px;
+}
+.text{
+    background-color: rgb(0,53,128);
+}
+.text .container{
+    padding: 80px 0;
+}
+
+.row-1:first-child{
+    border: 4px solid var(--primarycolor);
+    background-color: #fff;
+}
+.border-sari{
+    border: 4px solid var(--primarycolor) !important;
+}
+.border-sag{
+    border-right: 4px solid var(--primarycolor);
+}
+
+.fa-circle-exclamation{
+    color: rgb(146,62,1);
+    background-color: rgb(255,240,224);
+}
+
+.image1{
+    background-image: url(./images/184699273.jpeg);
+    background-size: cover;
+    
+}
+.image2{
+    background-image: url(./images/182431478.jpeg);
+    background-size: cover;
+    
+}
+.discover:hover{
+    background-color: rgb(0,72,122) !important;
+}
+.checkbox{
+    outline: none;
+}
+
+
+.regions-text{
+    color: var(--bui_color_foreground_alt) ;
+}
+.right-icon{
+    top: 66px;
+    left: 17px;
+}
+.fa-angle-right{
+    font-size: 70%;
+    padding: 11px 13px;
+   
+}
+.azerbaijan-text{
+    background: linear-gradient(180deg,rgba(0,27,65,.65) 0,rgba(0,27,65,0));
+    
+}
+.azerbaijan-h4{
+    text-shadow: 1px 1px 1px #000;
+}
+.istanbul-text{
+    background: linear-gradient(180deg,rgba(0,27,65,.65) 0,rgba(0,27,65,0));
+    
+}
+.istanbul-h4{
+    text-shadow: 1px 1px 1px #000;
+}
+
+.tbilisi-text{
+    background: linear-gradient(180deg,rgba(0,27,65,.65) 0,rgba(0,27,65,0));
+    
+}
+.tbilisi-h4{
+    text-shadow: 1px 1px 1px #000;
+}
+
+.dubai-text{
+    background: linear-gradient(180deg,rgba(0,27,65,.65) 0,rgba(0,27,65,0));
+    
+}
+.dubai-h4{
+    text-shadow: 1px 1px 1px #000;
+}
+.budapest-text{
+    background: linear-gradient(180deg,rgba(0,27,65,.65) 0,rgba(0,27,65,0));
+    
+}
+.budapest-h4{
+    text-shadow: 1px 1px 1px #000;
+}
+
+.nav-item-1:nth-child(1){
+    background-color: rgb(240,247,251);
+}
+
+.nav-item-1:hover{
+    background-color: var(--bui_color_highlighted_alt) ;
+    border-radius: 30px;
+}
+.questions-button:hover{
+    background-color: rgb(240,247,251) !important;
+}
+
+.swipp-span{
+   
+    text-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+}
+.swipp-h5{
+    
+    text-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+}
+.swipp-trips-text{
+    background-image: linear-gradient(-180deg,rgba(0,0,0,0.00) 12%,#000 97%);
+    
+}
+.index{
+    background-color: var(--bui_color_brand_primary_background);
+}
+.very-good{
+    font-size: 80%;
+}
+.guests-text1{
+    color: var(--bui_color_foreground_alt) ;
+}
+
+.sign-up{
+    background-color: #00224f;
+}
+
+.signup{
+    color: #bdbdbd;
+}
+
+.input{
+    font-size: 60%;
+}
+.list-footer{
+    background-color: rgb(0,53,128);
+}
+
+.list2 ul{
+    list-style: none;
+    font-size: 80%;
+}
+.footer-top ul{
+    list-style: none;
+    font-size: 80%;
+}
+
+.footer-top ul li{
+    margin-bottom: 4px;
+}
+
+.footer-top ul li a{
+    text-decoration: none;
+}
+.footer-top ul li a:hover{
+    color: #bc5b01;
+}
+.log-in a:hover{
+    color: #bc5b01;
+}
+.whitebar{
+    font-size: 70%;
+}
+.footer-images span {
+    font-size: 80%;
+}
+
+.destination-list a:hover{
+    text-decoration-line:underline!important;
+}
+
+.destination-list li{
+    font-size: 80%;
+}
+input:focus::placeholder{
+    color: red;
+}
+
+.list1 a:hover{
+    background-color: rgba(255,255,255,0.2) !important;
+}
+.swipp-trips-text{
+    z-index: 9;
+}
+.azerbaijan-image img{
+    object-fit: cover;
+}
+.swipp-trips img{
+    transition: all .4s;
+   
+}
+.swipp-trips:hover img{
+    transform: scale(1.05);
+    
+}
+
+.property img{
+    object-fit: cover;
+}
+.regions-images .row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.properties .row{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.travelers .row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@media(max-width:992px){
+    .regions-images{
+        border:1px solid #dbdbdb;
+    }
+    .planner{
+        border: 1px solid #dbdbdb;
+    }
+    .properties{
+        border: 1px solid #dbdbdb;
+    }
+}
+
+@media(min-width:992px){
+    .row-1:first-child{
+        margin-top: -30px;
+    }
+
+    body{
+        background-color: #fff !important;
+    }
+
+    .regions-images .row{
+        overflow: hidden !important;
+    }
+    .regions-images{
+        border: 0 ;
+    }
+    .planner{
+        border: 0;
+    }
+    .properties{
+        border: 0;
+    }
+    .properties .row{
+        overflow: hidden !important;
+    }
+}
